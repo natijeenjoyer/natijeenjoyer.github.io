@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brevity</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Brevity</div>
+        <button id="theme-toggle" class="btn">Toggle Theme</button>
+        <button id="auth-button" class="btn">Login</button>
+        <!-- Login/Register Forms -->
+    <div id="auth-modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2 id="modal-title">Login</h2>
+            <form id="auth-form">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="news-feed">
+            <div class="card">
+                <h3 class="card-title">Breaking News 1</h3>
+                <p class="card-description">This is a short description of the news.</p>
+                <button class="btn">Read More</button>
+            </div>
+            <div class="card">
+                <h3 class="card-title">Breaking News 2</h3>
+                <p class="card-description">This is a short description of the news.</p>
+                <button class="btn">Read More</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        &copy; 2024 Brevity. All Rights Reserved.
+    </footer>
+
+    <script src="js/script.js"></script>
+</div>      
+</body>
+</html>
