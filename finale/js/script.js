@@ -95,7 +95,7 @@ authForm.addEventListener('submit', (e) => {
 const fetchNews = async () => {
     const apiKey = 'd7fd005935084360b0d68f70c10bcd3b';
     
-    const url = 'https://newsapi.org/v2/everything?q=tesla&from=2024-10-19&sortBy=publishedAt&apiKey=d7fd005935084360b0d68f70c10bcd3b';
+    const url = 'https://newsapi.org/v2/everything?q=apple&from=2024-11-18&to=2024-11-18&sortBy=popularity&apiKey=d7fd005935084360b0d68f70c10bcd3b';
     try {
         const response = await fetch(url);
         const data = await response.json();
